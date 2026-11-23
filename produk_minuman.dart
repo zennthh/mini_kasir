@@ -16,5 +16,5 @@ class ProdukMinuman extends Produk with BisaDiskon {
   }
   
   @override
-  void cetakStruk() => print("$nama - dingin: ${dingin ? 'dingin' : 'tidak'}");
+  String cetakStruk() => "$nama - dingin: ${dingin ? 'dingin' : 'tidak'}";
 }

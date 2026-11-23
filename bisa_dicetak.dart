@@ -1,3 +1,3 @@
 abstract class BisaDicetak {
-  void cetakStruk();
+  String cetakStruk();
 }

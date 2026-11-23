@@ -18,9 +18,7 @@ class ProdukMakanan extends Produk implements BisaDicetak {
   }
 
   @override
-  void cetakStruk() {
-    print ("Menu: $nama - Kalori:$kalori");
-  }
+  String cetakStruk() => "Menu: $nama - Kalori:$kalori";
 
   @override
   double hitungHargaDiskon(double harga) {

@@ -32,7 +32,7 @@ abstract class Produk with BisaDiskon implements BisaDicetak {
   }
 
   @override
-  void cetakStruk() => print('$nama (Rp${_harga.toStringAsFixed(0)}) - pajak: ${this.hitungPajak().toStringAsFixed(0)}');
+  String cetakStruk() => 'nama: (Rp.${_harga.toStringAsFixed(0)}) - pajak: ${this.hitungPajak().toStringAsFixed(0)})';
 
   @override
   String toString() {
